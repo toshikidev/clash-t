@@ -10,7 +10,6 @@ branches:
     - coverity_scan
 
 environment:
-  nodejs_version: "16"
   REPO_DIR: &REPO_DIR c:\clash-t
 
 # project directory
@@ -33,7 +32,7 @@ after_build:
   - COPY "%REPO_DIR%\build" upload
   - COPY "%REPO_DIR%\build\de\Microsoft.Win32.TaskScheduler.resources.dll" upload
   - COPY "%REPO_DIR%\build\es\Microsoft.Win32.TaskScheduler.resources.dll" upload
-  - COPY "%REPO_DIR%\build\fa-IR\Microsoft.Win32.TaskScheduler.resources.dll" upload
+  - COPY "%REPO_DIR%\build\fa-IR\clashT.resources.dll" upload
   - COPY "%REPO_DIR%\build\fr\Microsoft.Win32.TaskScheduler.resources.dll" upload
   - COPY "%REPO_DIR%\build\it\Microsoft.Win32.TaskScheduler.resources.dll" upload
   - COPY "%REPO_DIR%\build\pl\Microsoft.Win32.TaskScheduler.resources.dll" upload
