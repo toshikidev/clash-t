@@ -34,5 +34,5 @@ after_build:
 test: off
 
 artifacts:
-  - path: \build\upload
+  - path: \upload
     name: clash-t-appveyor-windows-x64
