@@ -29,7 +29,7 @@ after_build:
   - cd "%REPO_DIR%\build"
   - MKDIR upload
   - ls -a
-  - COPY "%REPO_DIR%\build" -Destinatio "%REPO_DIR%\upload\"
+  - Copy-Item -Path "%REPO_DIR%\build" -Destination "%REPO_DIR%\upload\"
 
 test: off
 
