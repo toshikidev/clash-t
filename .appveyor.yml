@@ -1,0 +1,39 @@
+version: '{branch}-{build}'
+
+# Do not build on tags (GitHub only)
+skip_tags: true
+
+image: Visual Studio 2022
+
+branches:
+  except:  # blacklist
+    - coverity_scan
+
+environment:
+  nodejs_version: "16"
+  REPO_DIR: &REPO_DIR c:\clash-t
+
+# project directory
+clone_folder: *REPO_DIR
+
+# clone_depth: 50
+
+install:
+  - cd "%REPO_DIR%"
+  - dotnet --info
+
+build_script:
+  - cd "%REPO_DIR%"
+  - dotnet build clashT -o build
+
+after_build:
+  - cd "%REPO_DIR%\build"
+  - MKDIR upload
+  - ls -a
+  - COPY "%REPO_DIR%\build" upload
+
+test: off
+
+artifacts:
+  - path: \upload
+    name: clash-t-appveyor-windows-x64
