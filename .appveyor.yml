@@ -39,7 +39,7 @@ after_build:
   - COPY "%REPO_DIR%\build\Resources\Fonts\MiSans-Regular.ttf" upload
   - COPY "%REPO_DIR%\build\ru\Microsoft.Win32.TaskScheduler.resources.dll" upload
   - COPY "%REPO_DIR%\build\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll" upload
-  - COPY "%REPO_DIR%\build\zh-Hans\Microsoft.Win32.TaskScheduler.resources.dll" upload
+  - COPY "%REPO_DIR%\build\zh-Hans\clashT.resources.dll" upload
   - COPY "%REPO_DIR%\build\zh-Hant\Microsoft.Win32.TaskScheduler.resources.dll" upload
 
 test: off
