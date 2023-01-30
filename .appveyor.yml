@@ -31,9 +31,20 @@ after_build:
   - MKDIR upload
   - ls -a
   - COPY "%REPO_DIR%\build" upload
+  - COPY "%REPO_DIR%\build\de\Microsoft.Win32.TaskScheduler.resources.dll" upload
+  - COPY "%REPO_DIR%\build\es\Microsoft.Win32.TaskScheduler.resources.dll" upload
+  - COPY "%REPO_DIR%\build\fa-IR\Microsoft.Win32.TaskScheduler.resources.dll" upload
+  - COPY "%REPO_DIR%\build\fr\Microsoft.Win32.TaskScheduler.resources.dll" upload
+  - COPY "%REPO_DIR%\build\it\Microsoft.Win32.TaskScheduler.resources.dll" upload
+  - COPY "%REPO_DIR%\build\pl\Microsoft.Win32.TaskScheduler.resources.dll" upload
+  - COPY "%REPO_DIR%\build\Resources\Fonts\MiSans-Regular.ttf" upload
+  - COPY "%REPO_DIR%\build\ru\Microsoft.Win32.TaskScheduler.resources.dll" upload
+  - COPY "%REPO_DIR%\build\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll" upload
+  - COPY "%REPO_DIR%\build\zh-Hans\Microsoft.Win32.TaskScheduler.resources.dll" upload
+  - COPY "%REPO_DIR%\build\zh-Hant\Microsoft.Win32.TaskScheduler.resources.dll" upload
 
 test: off
 
 artifacts:
-  - path: \upload
+  - path: \build\upload
     name: clash-t-appveyor-windows-x64
