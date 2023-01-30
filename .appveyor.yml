@@ -29,7 +29,7 @@ after_build:
   - cd "%REPO_DIR%\build"
   - MKDIR upload
   - ls -a
-  - XCOPY "%REPO_DIR%\build\" "%REPO_DIR%\upload\" /S /E /Y
+  - XCOPY "%REPO_DIR%\build\" "%REPO_DIR%\upload" /S /E /Y
 
 test: off
 
