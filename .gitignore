@@ -1,8 +1,4 @@
-﻿################################################################################
-# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
-################################################################################
-`
-/clashT/.vs/
+﻿/clashT/.vs/
 /clashT/clashT/bin/Debug/app.publish
 /clashT/clashT/bin/Debug
 /clashT/clashT/bin/Release
