@@ -75,7 +75,7 @@
                                 Grid.Row="0"
                                 Margin="16,16,16,4"
                                 Style="{StaticResource TabItemTitle}"
-                                Text="Update clashT" />
+                                Text="Update clash-t" />
 
                             <Separator Grid.Row="1" Style="{StaticResource MaterialDesignLightSeparator}" />
 
