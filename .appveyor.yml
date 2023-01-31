@@ -11,7 +11,11 @@ branches:
 
 environment:
   REPO_DIR: &REPO_DIR c:\clash-t
-
+  CLASH_AMD64_URL: https://github.com/Dreamacro/clash/releases/download/v1.12.0/clash-windows-amd64-v1.12.0.zip # clash core for amd64 win architecture 
+  CLASH_ARM64_URL: https://github.com/Dreamacro/clash/releases/download/v1.12.0/clash-windows-arm64-v1.12.0.zip # clash core for arm64 win architecture
+  CLASH_META_AMD64_URL: https://github.com/MetaCubeX/Clash.Meta/releases/download/Prerelease-Alpha/clash.meta-windows-amd64-alpha-df2111d.zip # clash meta core for amd64 win architecture
+  CLASH_META_ARM64_URL: https://github.com/MetaCubeX/Clash.Meta/releases/download/Prerelease-Alpha/clash.meta-windows-arm64-alpha-df2111d.zip # clash meta core for arm64 win architecture
+  CLASH_META_ARM32_URL: https://github.com/MetaCubeX/Clash.Meta/releases/download/Prerelease-Alpha/clash.meta-windows-arm32v7-alpha-df2111d.zip # clash meta core for arm32 win architecture
 # project directory
 clone_folder: *REPO_DIR
 
@@ -26,7 +30,16 @@ build_script:
   - dotnet build clashT -o build
 
 after_build:
-  - cd "%REPO_DIR%\build"
+  - CD "%REPO_DIR%\build"
+  - MKDIR bin
+  - MKDIR bin\clash
+  - MKDIR bin\clash_meta
+  - CD bin\clash
+  - appveyor DownloadFile "%CLASH_AMD64_URL%"
+  - appveyor DownloadFile "%CLASH_ARM64_URL%"
+  - appveyor DownlaodFile "%CLASH_META_AMD64_URL%"
+  - appveyor DownloadFile "%CLASH_META_ARM64_URL%"
+  - appveyor DownloadFile "%CLASH_META_ARM32_URL%"
   - MKDIR upload
   - ls -a
   - XCOPY "%REPO_DIR%\build" "%REPO_DIR%\upload" /E /H /C /I
