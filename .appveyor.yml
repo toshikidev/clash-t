@@ -39,7 +39,7 @@ after_build:
   - appveyor DownloadFile "%CLASH_ARM64_URL%"
   - appveyor DownlaodFile "%CLASH_META_AMD64_URL%"
   - appveyor DownloadFile "%CLASH_META_ARM64_URL%"
-  - appvetor DownloadFile "%CLASH_META_ARM32_URL%"
+  - appveyor DownloadFile "%CLASH_META_ARM32_URL%"
   - MKDIR upload
   - ls -a
   - XCOPY "%REPO_DIR%\build" "%REPO_DIR%\upload" /E /H /C /I
