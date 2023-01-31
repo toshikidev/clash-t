@@ -49,7 +49,7 @@ namespace clashT.ViewModels
         public bool AutoRefresh { get; set; }
         [Reactive]
         public bool EnableTun { get; set; }
-        
+
 
         public ProxiesViewModel()
         {
@@ -187,9 +187,9 @@ namespace clashT.ViewModels
         {
             if (_config.enableTun != EnableTun)
             {
-                _config.enableTun = EnableTun; 
+                _config.enableTun = EnableTun;
                 TunModeSwitch();
-            }           
+            }
         }
 
         void TunModeSwitch()

@@ -293,7 +293,7 @@ namespace clashT.ViewModels
         {
             if (notify)
             {
-                _noticeHandler?.Enqueue(msg); 
+                _noticeHandler?.Enqueue(msg);
                 _noticeHandler?.SendMessage(msg);
             }
             else
