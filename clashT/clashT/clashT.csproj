@@ -9,7 +9,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>clashT.ico</ApplicationIcon>
 	<Copyright>Copyright © 2023-present ToshikiDev (GPLv3)</Copyright>
-	<FileVersion>0.0.1</FileVersion>
+	<FileVersion>0.0.1-alpha</FileVersion>
   </PropertyGroup>
  
 
