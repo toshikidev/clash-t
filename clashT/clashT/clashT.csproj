@@ -8,7 +8,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>clashT.ico</ApplicationIcon>
-	<Copyright>Copyright © 2023-present @andatoshiki (GPLv3)</Copyright>
+	<Copyright>Copyright © 2023-present ToshikiDev (GPLv3)</Copyright>
 	<FileVersion>0.0.1</FileVersion>
   </PropertyGroup>
  
