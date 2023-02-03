@@ -60,7 +60,7 @@ clash-t 是一款基于 Clash 和 C# 的 windows/macos/linux 的 clash 图形化
 
 - 💖美观度 界面美观可爱，看板娘在线卖萌
 - 📂通用性 支持多种代理协议
-- 
+- 💽多系统 同时支持电脑和移动端的多种系统
 
 </div>
 
@@ -69,6 +69,10 @@ clash-t 是一款基于 Clash 和 C# 的 windows/macos/linux 的 clash 图形化
 ## 安装
 
 <a href="#"> clash-t 官网 </a>进行下载
+
+```sh
+$ npm install --global xx
+```
 
 </div>
 
