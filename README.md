@@ -10,10 +10,10 @@
     <p align="center">
     <a>简体中文</a>
     ·
-    <a href="/README.md">English</a>
-    ·
     <a href="/README_zh-TW.md">繁體中文</a>
-  </p>
+    ·
+    <a href="/README.md">English</a>
+<!-- [English](README_en-US.md) | [日本語](README_ja-JP.md) | [한국어](README_ko-KR.md)>
 </div>
 
 ![](https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/screenshot.png)
