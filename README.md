@@ -11,7 +11,8 @@
     <a>简体中文</a>
     ·
     <a href="/README.md">English</a>
-    
+    ·
+    <a href="/README_zh-TW.md">繁體中文</a>
   </p>
 </div>
 
