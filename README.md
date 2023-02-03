@@ -1,6 +1,6 @@
 # Clash-T
 
-<img src="#" alt="logo" width="160" height="160" align="left" />
+<img src="./doc/logo.png" alt="logo" width="160" height="160" align="left" />
 <h1>Clash-T</h1>
 
 <br /><br /><br />
@@ -15,7 +15,7 @@
   </p>
 </div>
 
-![我是截图](我是图片.png)
+![](https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/screenshot.png)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/yi0usrmfb98vwc6m?svg=true)](https://ci.appveyor.com/project/andatoshiki/clash-t)
 
