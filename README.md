@@ -89,6 +89,23 @@ $ npm install --global xx
 感谢所有为项目做出贡献的开发者!
 
 <!-- readme: contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/andatoshiki">
+            <img src="https://avatars.githubusercontent.com/u/101481353?v=4" width="100;" alt="andatoshiki"/>
+            <br />
+            <sub><b>Anda Toshiki</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/DTpeel">
+            <img src="https://avatars.githubusercontent.com/u/61195619?v=4" width="100;" alt="DTpeel"/>
+            <br />
+            <sub><b>Chenskiro</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: contributors -end -->
 
 <!-- <a href="https://github.com/toshikidev/clash-t/graphs/contributors">
