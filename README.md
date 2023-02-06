@@ -11,7 +11,7 @@
     <a href="/README_zh-TW.md">繁體中文</a>
     ·
     <a href="/README_en-US.md">English</a>
-<!-- | [日本語](README_ja-JP.md) | [한국어](README_ko-KR.md)> -->
+<!-- | [日本語](README_ja-JP.md) | [한국어](README_ko-KR.md)> -->
 </div>
 
 ![](https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/screenshot.png)
@@ -88,9 +88,14 @@ $ npm install --global xx
 
 感谢所有为项目做出贡献的开发者!
 
-<a href="https://github.com/toshikidev/clash-t/graphs/contributors">
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
+
+<!-- <a href="https://github.com/toshikidev/clash-t/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=toshikidev/clash-t" />
-</a>
+</a> -->
+
+
 
 </div>
 <div id="license" >
