@@ -1,6 +1,4 @@
-# Clash-T
-
-<img src="./doc/logo.png" alt="logo" width="160" height="160" align="left" />
+<img src="https://cdn.jsdelivr.net/gh/toshikidev/clash-t@master/assets/logo/svg/clash-t-logo-original-with-fluent-ui-bg-smaller.svg" alt="logo" width="160" height="160" align="left" />
 <h1>Clash-T</h1>
 
 <br /><br /><br />
