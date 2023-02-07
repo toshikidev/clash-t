@@ -24,7 +24,7 @@
                 ""
             };
         public static readonly List<string> SubConvertConfig = new List<string> {
-                @"https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
+                @"https://raw.toshiki.dev/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
             };
 
 

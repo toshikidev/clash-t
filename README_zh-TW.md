@@ -17,7 +17,7 @@
   </p>
 </div>
 
-![](https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/screenshot.png)
+![](https://raw.toshiki.dev/othneildrew/Best-README-Template/master/images/screenshot.png)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/yi0usrmfb98vwc6m?svg=true)](https://ci.appveyor.com/project/andatoshiki/clash-t)
 
@@ -81,7 +81,7 @@ $ npm install --global xx
 <div id="screenshot">
 
 ## 截圖
-![](https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/screenshot.png)
+![](https://raw.toshiki.dev/othneildrew/Best-README-Template/master/images/screenshot.png)
 
 </div>
 
